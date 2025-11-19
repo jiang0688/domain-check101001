@@ -5,7 +5,7 @@ keep_vars = true
 
 # KV 命名空间绑定 (必须)
 [[kv_namespaces]]
-binding = "domain_check_101001" 
+binding = "DOMAIN_KV" 
 id = "43039829ddf944b9a4a68c9a6135e941" # 替换成你实际的 KV ID
 
 # Cron Triggers 定时任务
