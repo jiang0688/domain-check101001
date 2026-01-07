@@ -47,7 +47,8 @@ export async function checkDomainsScheduled(env) {
 📅 过期日期: ${domainInfo.expirationDate}
 🔗 注册商: <a href="${domainInfo.systemURL}">${domainInfo.system}</a>
 👤 注册账号: ${domainInfo.registerAccount || 'N/A'}
-------------------`;
+----------------------------------------------
+<a href="https://check.101005.xyz/">域名监控网址</a>`;
 
             await sendtgMessage(message, config.tgid, config.tgtoken);
             console.log(`已发送 ${domainInfo.domain} 的到期通知.`);
